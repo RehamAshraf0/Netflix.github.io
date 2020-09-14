@@ -1,0 +1,25 @@
+footer {
+    .footer-container {
+        width: 75%;
+        margin: 2rem auto;
+        color: grey;
+        font-size: 1rem;
+        p {
+            margin: 1rem 0;
+        }
+        .uls-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 2rem;
+            ul {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: grey;
+                    padding: 0.4rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
